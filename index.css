@@ -68,3 +68,8 @@ a:hover {
    color: #f0C330;
    transition: 0.3s;
 }
+
+.container {
+    text-align: center;
+    display: inline-block;
+}
