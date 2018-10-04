@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+body {
+    font-family: 'Anonymous Pro', monospace;
+    color: white;
+    background-color: rgb(25, 25, 25);
+}
+
+
+span {
+    color: white;
+}
+
+.cursorline{
+    position: relative;
+    top: 50%;
+    width: 16em;
+    border-right: solid 2px rgba(255, 255, 255, 0.75);
+    font-size: 100%;
+    text-align: center;
+    white-space: nowrap;
+    transform: translateY(-50%);
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.type {
+    animation: typeEffect 5s steps(40) 1s 1 normal both, cursorBlinkEffect 540ms steps(40) infinite normal;
+}
+
+@keyframes typeEffect {
+    from {
+        width: 0;
+    }
+    to {
+        width: 14em;
+    }
+}
+
+@keyframes cursorBlinkEffect {
+    from { 
+        border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 30px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2vw;
+}
+
+a:hover {
+   color: #f0C330;
+   transition: 0.3s;
+}
