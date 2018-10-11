@@ -4,6 +4,7 @@ body {
     font-family: 'Anonymous Pro', monospace;
     color: white;
     background-color: rgb(25, 25, 25);
+    overflow: hidden;
 }
 
 
@@ -33,7 +34,7 @@ span {
         width: 0;
     }
     to {
-        width: 15em;
+        width: 14em;
     }
 }
 
@@ -68,3 +69,31 @@ a:hover {
    color: #f0C330;
    transition: 0.3s;
 }
+
+@keyframes skol {
+    from {
+        transform: translateX(500%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+h1 {
+    animation: skol 2s;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
