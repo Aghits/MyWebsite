@@ -47,11 +47,6 @@ span {
     }
 }
 
-ul li a {
-    text-decoration: none;
-    font-size: 30px;
-}
-
 li {
     list-style: none;
     display: inline-block;
@@ -66,9 +61,10 @@ a {
 }
 
 a:hover {
-   color: #f0C330;
+   color: rgb(59, 132, 214);
    transition: 0.3s;
 }
+
 
 @keyframes skol {
     from {
