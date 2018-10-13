@@ -79,3 +79,14 @@ h1 {
     animation: skol 1s;
     text-align: center;
 }
+
+h1:hover {
+    margin: 14px;
+    cursor: crosshair;
+}
+
+.box {
+    width: 255%;
+    color: darkred;
+    background-color: aquamarine;
+}
