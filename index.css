@@ -54,8 +54,6 @@ li {
     list-style: none;
     display: inline-block;
     padding: 15px 30px;
-    border-bottom-style: solid;
-    border-bottom-width: thick;
 }
 
 a {
@@ -63,6 +61,8 @@ a {
     color: white;
     text-decoration: none;
     font-size: 1.2vw;
+    border-bottom-style: solid;
+    border-bottom-width: thick;
 }
 
 a:hover {
