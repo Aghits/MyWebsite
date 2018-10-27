@@ -61,15 +61,13 @@ a {
     color: white;
     text-decoration: none;
     font-size: 1.2vw;
-    padding: 20px;
-    margin: 60px;
 }
 
 a:hover {
    color: rgb(59, 132, 214);
    transition: 0.3s;
    border-bottom-style: solid;
-   border-bottom-width: thick;
+   border-bottom-width: thin;
 }
 
 
