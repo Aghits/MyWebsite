@@ -63,7 +63,7 @@ a {
     font-size: 1.2vw;
 }
 
-li a:hover {
+a:hover {
    color: rgb(59, 132, 214);
    transition: 0.3s;
    border-bottom-style: solid;
