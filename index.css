@@ -90,7 +90,7 @@ a:hover {
     font-family: 'Open Sans', sans-serif;
     font-size: 90%;
     text-align: justify;
-    column-count: auto;
+    column-count: 3;
 }
 
 * {cursor: url(http://cur.cursors-4u.net/cursors/cur-11/cur1054.cur), auto !important;}
