@@ -66,8 +66,8 @@ a {
 a:hover {
    color: rgb(59, 132, 214);
    transition: 0.3s;
-   border-bottom-style: solid;
-   border-bottom-width: thin;
+   border-bottom-style: groove;
+   border-bottom-width: medium;
 }
 
 
