@@ -91,7 +91,7 @@ a:hover {
     font-size: 90%;
     text-align: justify;
     column-count: auto;
-    column-gap: 76px;
+    column-gap: 300px;
 }
 
 * {cursor: url(http://cur.cursors-4u.net/cursors/cur-11/cur1054.cur), auto !important;}
