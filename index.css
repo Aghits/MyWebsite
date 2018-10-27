@@ -8,6 +8,7 @@ body, * {
     color: white;
     background-color: rgb(25, 25, 25);
     overflow: hidden;
+    user-select: none;
 }
 
 
