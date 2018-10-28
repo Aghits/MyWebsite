@@ -67,7 +67,7 @@ a {
 
 a:hover {
    color: rgb(59, 132, 214);
-   transition: 1s;
+   transition: 0.7s;
    letter-spacing: 2px;
    border-bottom-style: groove;
    border-bottom-width: medium;
