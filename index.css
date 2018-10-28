@@ -55,6 +55,8 @@ li {
     list-style: none;
     display: inline-block;
     padding: 15px 30px;
+    border: 2px;
+    border-style: solid;
 }
 
 a {
@@ -63,7 +65,6 @@ a {
     text-decoration: none;
     font-size: 1.2vw;
     letter-spacing: 0;
-    border: 5px;
 }
 
 a:hover {
