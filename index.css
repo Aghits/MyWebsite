@@ -21,7 +21,7 @@ span {
     top: 50%;
     width: 16em;
     border-right: solid 2px rgba(255, 255, 255, 0.75);
-    font-size: 100%;
+    font-size: 30px;
     text-align: center;
     white-space: nowrap;
     transform: translateY(160%);
@@ -74,6 +74,13 @@ a:hover {
    border-bottom-style: groove;
    border-bottom-width: medium;
    border-top: 2px solid rgb(59, 132, 214);
+}
+
+.hina {
+    font-size: 50px;
+    position: fixed;
+    top: 50%;
+    left: 38%;
 }
 
 
