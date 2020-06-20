@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Anonymous+Pro');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-<<<<<<< HEAD
 body, * {
-=======
-* {
->>>>>>> ebdfd929e166e6912620c334bd5d7bb102e35d3a
     margin: 0;
     padding: 0;
     font-family: 'Anonymous Pro', monospace;
@@ -60,11 +56,7 @@ span {
     }
 }
 
-<<<<<<< HEAD
 .lali {
-=======
-li {
->>>>>>> ebdfd929e166e6912620c334bd5d7bb102e35d3a
     list-style: none;
     display: inline-block;
     padding: 15px 30px;
@@ -87,7 +79,6 @@ a:hover {
    border-bottom-style: groove;
    border-bottom-width: medium;
    border-top: 2px solid rgb(59, 132, 214);
-<<<<<<< HEAD
 }
 
 .hina {
@@ -128,38 +119,3 @@ a:hover {
 }
 
 * {cursor: url(http://cur.cursors-4u.net/cursors/cur-11/cur1054.cur), auto !important;}
-=======
-}
-
-.hina {
-    font-size: 50px;
-    position: fixed;
-    top: 50%;
-    left: 38%;
-}
-
-
-@keyframes skol {
-    from {
-        transform: translateX(500%);
-    }
-    to {
-        transform: translateX(0);
-    }
-}
-
-.irip {
-    background-color: rgb(24, 24, 24);
-    color: whitesmoke;
-    margin: 0 auto;
-    padding: 21px;
-    width: 500px;
-    height: 700px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 90%;
-    text-align: justify;
-    column-count: auto;
-}
-
-* {cursor: url(http://cur.cursors-4u.net/cursors/cur-11/cur1054.cur), auto !important;}
->>>>>>> ebdfd929e166e6912620c334bd5d7bb102e35d3a
