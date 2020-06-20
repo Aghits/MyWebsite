@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 body, * {
-    height: 100%;
+    padding: 0;
     margin: 0;
     font-family: 'Anonymous Pro', monospace;
     color: white;
@@ -10,7 +10,9 @@ body, * {
     user-select: none;
 }
 
-body {
+body, html {
+    height: 100%;
+    margin: 0;
     background-color: rgb(25, 25, 25);
     overflow: hidden;
     user-select: none;
